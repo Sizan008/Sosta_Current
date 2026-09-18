@@ -137,18 +137,11 @@ Public synthetic samples: BUP challenge organizers.
 Implementation assistance: ChatGPT/Codex. Team members must review and understand
 all core logic and follow the event's attribution and participation rules.
 
-## Three-minute video outline
 
-0:00-0:25: Explain grid, solar, battery, variable tariff and natural-language notes.
-0:25-1:05: Show the LLM -> guardrails -> optimizer -> independent replay architecture.
-1:05-1:45: Explain signed battery flow, reserve/window constraints and end-of-day neutrality.
-1:45-2:25: Show /health, a successful live /optimize-energy request and sample test results.
-2:25-2:55: Show README, Render base URL and Docker pull/run instructions.
-Only claim successful live tests/deployment when they have actually passed.
 
 ## Verification of this source bundle
 
-10/10 offline public samples matched reference optimal costs and passed replay.
+13/13 offline public samples matched reference optimal costs and passed replay.
 20 local contract/validation tests passed, using mocked model responses where
 appropriate. A live provider check did not succeed: generation returned model
 not-found/access-denied responses although model listing succeeded. Actual Gemini
